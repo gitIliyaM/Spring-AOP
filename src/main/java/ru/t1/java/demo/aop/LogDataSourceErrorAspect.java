@@ -23,7 +23,7 @@ public class LogDataSourceErrorAspect {
         this.dataSourceErrorLogRepository = dataSourceErrorLogRepository;
     }
 
-    @AfterThrowing(pointcut = "execution(public * aop.spring.services.DataProcessorService.*(..))", throwing = "ex")
+    @AfterThrowing(pointcut = "execution(public * ru.t1.java.demo.service.DataProcessorService.*(..))", throwing = "ex")
     public void logAfterThrowing(JoinPoint joinPoint, Throwable ex) throws IOException {
         DataSourceErrorLog errorLog = new DataSourceErrorLog();
         errorLog.setExceptionStackTrace(Arrays.toString(ex.getStackTrace()));

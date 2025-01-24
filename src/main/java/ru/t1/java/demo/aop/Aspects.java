@@ -18,7 +18,7 @@ public class Aspects {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Pointcut("execution(public * aop.spring.services.DataProcessorService.*(..))")
+    @Pointcut("execution(public * ru.t1.java.demo.service.DataProcessorService.*(..))")
     public void allPointCut(){}
 
     @Before(value = "accountPointCut()")
