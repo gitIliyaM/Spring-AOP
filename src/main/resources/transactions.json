@@ -1,0 +1,12 @@
+[
+  {
+    "idClient": 1,
+    "amountTransaction": 150.0,
+    "timeTransaction": "2023-01-01T00:00:00Z"
+  },
+  {
+    "idClient": 1,
+    "amountTransaction": 50.0,
+    "timeTransaction": "2023-01-02T00:00:00Z"
+  }
+]

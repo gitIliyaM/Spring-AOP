@@ -1,0 +1,13 @@
+[
+    {
+        "idClient" : 1,
+        "accountType": "DEBIT",
+        "balance" : 0
+    },
+    {
+        "idClient" : 2,
+        "accountType": "CREDIT",
+        "balance" : 300
+    }
+]
+
